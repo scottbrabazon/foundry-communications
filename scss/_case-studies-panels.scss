@@ -1,0 +1,60 @@
+#case-studies {
+	margin-top: 60px;
+	margin-bottom: 60px;
+	position: relative; z-index: 500;
+}
+
+#case-studies.white-border {
+	margin-top: 0;
+	margin-bottom: 0;
+	border-style: solid;
+    border-width: 60px 0;
+    border-color: #fff;
+    background: #fff;
+}
+
+.case-studes-examples {
+	flex-direction: column;
+	width: 100%;
+	max-width: 1500px;
+	margin: 0 auto;
+	div {display:block;width: 100%;position:relative;overflow:hidden;}
+	img {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+.project-name-panel {
+	display: none;
+	padding: 10px 0 10px 0;
+	background: none;
+	width: 100%;
+	position: absolute !important;
+	bottom: 0;
+	left: 0;
+	height:400px;
+	
+	.project-client {font-family: $foundry_extra_bold; text-transform: uppercase;color:white;}
+	.project-title {font-family: $foundry_regular; text-transform: uppercase;color:white;}
+}
+
+.project-info {
+	text-align: left;
+	padding-left: 10px;
+	margin: 0;
+	font-family: $foundry_regular;
+	color: #000;
+    font-size: 0.85em;
+    line-height: 1.4em;
+	position:absolute;
+	padding-bottom: 10px;
+	bottom:0;
+	z-index:1000;
+	visibility:hidden;
+}
+
+@media screen and (min-width: 650px) {
+	.case-studes-examples {flex-direction: row;}
+}

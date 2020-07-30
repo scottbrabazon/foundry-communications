@@ -1,0 +1,529 @@
+/* General */
+
+.col-1, .col-2 {width: 47.5%;}
+.col-1 img {width: 100%;}
+.col-1 {margin-right: 5%;}
+.col-1 p:first-of-type {font-family: $foundry_bold;}
+.case-study-introduction {width: 70%; margin: 0 15%; text-align: center;}
+.listen-copy, .plan-copy, .deliver-copy {
+	width: 60%;
+	p:first-of-type {font-family: $foundry_bold;}
+	li {
+	    font-family: $foundry_regular;
+	    font-size: 0.9em;
+	    line-height: 2.2em;
+	}
+}
+.listen h2, .plan h2, .deliver h2 {width: 30%; text-align: right; padding-right: 30px;}
+.listen, .plan, .deliver {margin-top: 60px;}
+#case-study-examples {
+	width: 100%; 
+	max-width: 1500px; 
+	margin: 0 auto 60px auto;
+	p:first-of-type {font-family: $foundry_regular;}
+}
+.full-width-image {
+	width: 100%;
+	img {width: 100%;}
+}
+.intoduction-paragraph {
+	p:first-of-type {font-family: $foundry_regular;}
+	p {font-size: 1em;}
+}
+
+/* Work Intro */
+
+#work-masthead.masthead {
+	background: black url("/img/backgrounds/case-study-intro.jpg") no-repeat top center; 
+	background-size: cover;
+	margin-top: 68px;
+	height: 532px;
+	.masthead-content {width: 90%;}
+}
+#work-intro {margin-top: 60px;}
+
+
+/* Fixed Nav Buttons */
+
+#work-fixed-nav-buttons {
+	width: 100%;
+	position: fixed;
+	top: 40%;
+	left: 0;
+	padding: 0;
+	pointer-events: none;
+	ul {padding: 0; margin: 0;}
+	li {list-style: none;}
+}
+
+.work-fixed-nav-buttons {
+	width: 100%;
+	justify-content: space-between;
+	a {padding: 20px;}
+	h2 {
+		font-size: 1em;
+		font-family: $foundry_regular;
+		color: #fff;
+		margin: 0;
+		text-transform: uppercase;
+		margin-top: 6px;
+	}
+	img {
+		margin-top: 2px;
+	}
+	div {
+		width: 47.5%;
+		background: $foundry_red;
+		padding: 15px 15px;
+	}
+	.fixed-previous-page {
+		flex-direction: row;
+	    background: $foundry_red;
+	    background-size: cover;
+	    align-items: center;
+	    pointer-events: auto;
+	}
+	.fixed-next-page {
+		flex-direction: row;
+		flex-direction: row;
+	    background: $foundry_red;
+	    background-size: cover;
+		justify-content: flex-end;
+		align-items: center;
+	    pointer-events: auto;
+	}
+	.fixed-spacer {
+		background: transparent;
+		width: auto;
+	}
+}
+
+
+
+/* Abellio */
+
+#abellio-masthead.masthead {
+	background: black url("/img/backgrounds/case-study-abellio.jpg") no-repeat bottom center; 
+	background-size: cover;
+	margin-top: 68px;
+	height: 532px;
+	position: relative;
+	z-index: 400;
+}
+
+#abellio-intro, #abellio1, #abellio2, #abellio3, #abellio4, #abellio5, #abellio6, #abellio7, #abellio8 {margin-top: 60px;}
+
+#abellio8 {
+	background: black url("/img/case-studies/textured-background.jpg") no-repeat bottom center;
+	background-size: cover;
+	padding: 60px 0;
+	.container {
+	    position: relative;
+	    width: 100%;
+	    height: 0;
+	    padding-bottom: 56.25%;
+	}
+	.video {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
+}
+
+/* Albemarle Bond */
+
+#albemarle-bond-masthead.masthead {
+	background: black url("/img/backgrounds/case-study-albemarle-bond.jpg") no-repeat bottom center; 
+	background-size: cover;
+	margin-top: 68px;
+	height: 532px;
+	position: relative;
+	z-index: 400;
+}
+
+#albemarle-bond-intro, #albemarle-bond1, #albemarle-bond2, #albemarle-bond3, #albemarle-bond4, #albemarle-bond5, #albemarle-bond6, #albemarle-bond7, #albemarle-bond8, #albemarle-bond9, #albemarle-bond10 {margin-top: 60px;}
+
+#albemarle-bond1 {
+	background: black url("/img/case-studies/albemarle-bond/albemarle-bond1.jpg") no-repeat bottom center;
+	background-size: cover;
+	height: 788px;
+}
+
+
+/* Kumho */
+
+#kumho-masthead.masthead {
+	background: black url("/img/backgrounds/case-study-kumho.jpg") no-repeat bottom center; 
+	background-size: cover;
+	margin-top: 68px;
+	height: 532px;
+	position: relative;
+	z-index: 400;
+}
+
+#kumho-intro {
+	margin-top: 60px;
+}
+#kumho1 {
+	margin-top: 60px;
+	img {width: 100%;}
+	.rule img {width: 31px;}
+	.main-container {flex-direction: row;}
+}
+#kumho2 {
+	margin-top: 60px;
+}
+#kumho3 {
+	margin-top: 60px;
+}
+#kumho4 {
+	margin-top: 60px;
+	background: black url("/img/case-studies/kumho/kumho4.jpg") no-repeat bottom right;
+	background-size: cover;
+	color: #fff;
+	height: 550px;
+	.col-1 {
+		p:first-of-type {font-family: $foundry_regular;}
+		p {font-family: $foundry_thin;}
+		padding-top: 60px;
+	}
+}
+#kumho5 {
+	margin-top: 60px;
+}
+#kumho6 {
+	margin-top: 60px;
+	img {width: 100%;}
+	.rule img {width: 31px;}
+	.row-1 {flex-direction: row;}
+	.row-2 {margin-top: 40px;}
+}
+#kumho7 {
+	margin-top: 60px;
+	img {width: 100%;}
+	.rule img {width: 31px;}
+	.row-2 {flex-direction: row; margin-top: 40px;}
+}
+#kumho8 {
+	margin-top: 60px;
+	background: black url("/img/case-studies/textured-background.jpg") no-repeat bottom right;
+	background-size: cover;
+	img {width: 100%;}
+	.rule img {width: 31px;}
+	.col-1 {padding-top: 60px;}
+	.row-1 {flex-direction: row;}
+	.row-2 {flex-direction: row;}
+	padding-bottom: 60px;
+}
+#kumho9 {
+	margin-top: 60px;
+	img {width: 100%;}
+	.rule img {width: 31px;}
+	.col-2 {margin-top: 0;}
+	.row-1 {flex-direction: row;}
+	.row-2 {flex-direction: row; margin-top: 20px;}
+}
+#kumho10 {
+	margin-top: 60px;
+}
+
+
+/* Manchester United */
+
+#mufc-masthead.masthead {
+	background: black url("/img/backgrounds/case-study-mufc.jpg") no-repeat bottom center; 
+	background-size: cover;
+	margin-top: 68px;
+	height: 532px;
+	position: relative;
+	z-index: 400;
+}
+
+#mufc-intro, #mufc1, #mufc2, #mufc3, #mufc4, #mufc5, #mufc6, #mufc7, #mufc8, #mufc9, #mufc10, #mufc11 {margin-top: 60px;}
+
+#mufc1 {
+	margin-top: 60px;
+	img {width: 100%;}
+	.rule img {width: 31px;}
+	.row-1 {flex-direction: row; vertical-align: bottom;}
+	.row-2 {margin-top: 40px;}
+	.col-2 img {margin-top: 35px;}
+}
+
+#mufc6 {
+	flex-direction: row;
+	.col-1, .col-2 {margin: 0; width: 100%;}
+	.col-1 img, .col-2 img {width: 100%;}
+}
+
+#mufc9 {
+	background: black url("/img/case-studies/textured-background.jpg") no-repeat bottom center;
+	background-size: cover;
+	padding: 60px 0;
+	.container {
+		margin-top: 60px;
+	    position: relative;
+	    width: 100%;
+	    height: 0;
+	    padding-bottom: 56.25%;
+	}
+	.video {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
+}
+
+#mufc10 {
+	background: black url("/img/case-studies/textured-background.jpg") no-repeat bottom center;
+	background-size: cover;
+	padding: 60px 0;
+	.container {
+		margin-top: 60px;
+	    position: relative;
+	    width: 100%;
+	    height: 0;
+	    padding-bottom: 56.25%;
+	}
+	.video {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
+}
+
+#mufc11 {
+	img {margin-top: 40px;}
+	.centered {margin-bottom: 60px;}
+}
+
+#mufc-video {
+	margin-top: 60px;
+	.container {
+	    position: relative;
+	    width: 100%;
+	    height: 0;
+	    padding-bottom: 56.25%;
+	}
+	.video {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
+}
+
+
+/* Matthew Clark */
+
+#matthew-clark-masthead.masthead {
+	background: black url("/img/backgrounds/case-study-matthew-clark.jpg") no-repeat bottom center; 
+	background-size: cover;
+	margin-top: 68px;
+	height: 532px;
+	position: relative;
+	z-index: 400;
+}
+
+#matthew-clark-intro, #matthew-clark1, #matthew-clark2, #matthew-clark3, #matthew-clark4, #matthew-clark5, #matthew-clark6 {margin-top: 60px;}
+
+
+/* PGL */
+
+#pgl-masthead.masthead {
+	background: black url("/img/backgrounds/case-study-pgl.jpg") no-repeat bottom center; 
+	background-size: cover;
+	margin-top: 68px;
+	height: 532px;
+	position: relative;
+	z-index: 400;
+}
+
+#pgl-intro, #pgl1, #pgl2, #pgl3, #pgl4, #pgl5, #pgl6 {margin-top: 60px;}
+
+
+/* Premier Pet Care Plan */
+
+#ppcp-masthead.masthead {
+	background: black url("/img/backgrounds/case-study-ppcp.jpg") no-repeat bottom center; 
+	background-size: cover;
+	margin-top: 68px;
+	height: 532px;
+	position: relative;
+	z-index: 400;
+}
+
+#ppcp-intro, #ppcp1, #ppcp2, #ppcp3, #ppcp4, #ppcp5, #ppcp6, #ppcp7 {margin-top: 60px;}
+
+#ppcp1 {
+	background: black url("/img/case-studies/ppcp/ppcp1a.jpg") no-repeat top right;
+	background-size: cover;
+	.row-1 {flex-direction: row;}
+	.col-1 {padding: 60px 0;}
+}
+
+#ppcp3 {
+	img {width: 100%;}
+	.col-1, .col-2 {margin: 0; width: 50%;}
+}
+#ppcp4 {
+	img {width: 100%;}
+	.col-1, .col-2 {margin: 0; width: 50%;}
+}
+#ppcp7 {
+	img {width: 100%;}
+	.col-1, .col-2 {margin: 0; width: 50%;}
+}
+
+/* Prestone */
+
+#prestone-masthead.masthead {
+	background: black url("/img/backgrounds/case-study-prestone.jpg") no-repeat bottom center; 
+	background-size: cover;
+	margin-top: 68px;
+	height: 532px;
+	position: relative;
+	z-index: 400;
+}
+
+#prestone-video {
+	margin-top: 60px;
+	.container {
+	    position: relative;
+	    width: 100%;
+	    height: 0;
+	    padding-bottom: 56.25%;
+	}
+	.video {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 800px) {
+
+	/* General */
+
+	.col-1, .col-2 {width: 100%;}
+	.col-1 {margin-right: 0;}
+	.masthead-content {flex-direction: column; align-items: flex-start;}
+	.headlines {order: 2; margin-top: 20px;}
+	.client-logo {order: 1; visibility: hidden; max-height: 127px;}
+	.listen, .plan, .deliver {flex-direction: column;}
+	.listen-copy, .plan-copy, .deliver-copy {width: 100%;}
+	.listen h2, .plan h2, .deliver h2 {width: 100%; text-align: left; padding-right: 0;}
+
+	
+	/* Albemarle Bond */
+
+	#albemarle-bond1 {
+		.row-1 {flex-direction: column;}
+		background: none;
+		height: auto;
+		text-align: left;
+		}
+
+	/* Kumho */
+
+	#kumho1 {
+		.main-container {flex-direction: column;}
+	}
+	#kumho4 {
+		.full-background-left-col {
+			.col-1 {width: 100%;}
+			height: 900px;
+		}
+	}
+	#kumho6 {
+		.row-1 {flex-direction: column;}
+}
+	#kumho7 {
+		.row-2 {flex-direction: column;}
+		.col-2 {margin-top: 60px;}
+	}
+	#kumho8 {
+		.col-1 {padding-top: 20px;}
+		.col-2 {
+			img {width: 80%; margin: 0 10%;}
+		}
+		.row-1 {flex-direction: column;}
+		.row-2 {
+			img {width: 80%; margin: 0 10%;}
+			flex-direction: column;
+		}
+	}
+	#kumho9 {
+		margin-top: 60px;
+		.col-2 {margin-top: 20px;}
+		.row-1 {
+			flex-direction: column;
+			img {width: 50%; margin: 0 25%;}
+		}
+		.row-2 {
+			flex-direction: column; margin-top: 20px;
+			img {width: 100%;}
+		}
+	}
+
+	/* Manchester United */
+
+	#mufc1 {
+		.row-1 {flex-direction: column;}
+		.col-2 img {margin-top: 60px;}
+	}
+	#mufc6 {
+		flex-direction: column;
+	}
+	#mufc11 {
+		.flexbox {
+			flex-direction: column;
+		}
+	}
+
+	/* Premier Pet Care Plan */
+
+	#ppcp1 {
+		.row-1 {flex-direction: column;}
+		.col-1 {padding-top: 650px;}
+	}
+	#ppcp3 {
+		.row-1 {flex-direction: column;}
+		.col-1, .col-2 {width: 100%;}
+		.col-2 {padding-top: 60px;}
+	}
+	#ppcp4 {
+		.row-1 {flex-direction: column;}
+		.col-1, .col-2 {width: 100%;}
+	}
+	#ppcp7 {
+		.row-1 {flex-direction: column;}
+		.col-1, .col-2 {width: 100%;}
+	}
+}
+
+@media screen and (max-width: 360px) {
+    #work-masthead.masthead {
+    	margin-top: 63px;}
+    #ppcp1 {
+    	background: black url("/img/case-studies/ppcp/ppcp1anarrow.jpg") no-repeat top right;
+    	background-size: cover;
+		.col-1 {padding-top: 350px;}
+	}
+}
+
+@media screen and (max-width: 1200px) {
+    #work-fixed-nav-buttons {display: none;}
+}

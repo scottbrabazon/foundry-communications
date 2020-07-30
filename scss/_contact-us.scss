@@ -1,0 +1,93 @@
+#contact-masthead.masthead {
+	background: black url("/img/backgrounds/background-image-2.svg") no-repeat top center; 
+	background-size: cover;
+	margin-top: 68px;
+	height: 532px;
+	.masthead-content {width: 90%;}
+}
+
+.contact-details {
+	margin-top: 40px;
+	flex-direction: row;
+	justify-content: space-between;
+	a {color: #fff;}
+}
+
+.address, .telephone, .email {flex-direction: column; justify-content: flex-start;}
+.address img, .telephone img, .email img {align-self: flex-start;}
+.address, .telephone {margin-bottom: 20px;}
+
+#map img {width: 100%;}
+#map {margin-top: 60px;}
+
+#enquiry-form {
+	margin: 60px auto 0 auto;
+	width: 50%;
+	h1 {text-align: center;}
+	p {text-align: center;}
+	.button-next {@include black-button-small;}
+	.button-next:hover {@include rollover-button-small;}
+}
+
+#thank-you {
+	margin: 60px auto 0 auto;
+	width: 80%;
+	h1 {text-align: center;}
+}
+
+#careers {
+	clear: left;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	h3 {margin-top: 60px;}
+}
+
+.data-protection {
+	
+	display: block;
+	float: left;
+	width: 100%;
+	margin-bottom: 12px;
+	
+	p {
+		text-align: left !important;
+		font-size: 0.8em;
+		line-height: 1.8em;
+		
+		input {
+			width: auto !important;
+		}
+		
+		span {
+			width: 97%;
+			float: right;
+		}
+	}
+
+}
+
+.centered .data-protection p:first-of-type {
+    font-family: "Gotham Medium Book",sans-serif,arial,sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+	.contact-details {
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	#enquiry-form {
+		width: 90%;
+		h1 {text-align: left;}
+		p {text-align: left;}
+		.rule img {margin: 0 0 30px 0;}
+	}
+}
+@media screen and (min-width: 800px) {
+	.address, .telephone, .email {flex-direction: row;}
+	.address img, .telephone img, .email img {padding-right: 10px;}
+}
+@media screen and (max-width: 1150px) {
+	#contact-masthead.masthead {
+		.masthead-content {width: 90%;}
+	}
+}

@@ -1,0 +1,171 @@
+/* Typography */
+
+
+h1 {
+    font-family: $foundry_extra_bold;
+    text-transform: uppercase;
+    font-size: 2.8em;
+    line-height: 0.9em;
+    margin: 0 0 0.5em 0;
+    font-weight: 100;
+}
+
+h2 {
+    font-family: $foundry_extra_bold;
+    text-transform: uppercase;
+    font-size: 2.25em;
+    line-height: 0.9em;
+    margin: 0 0 0.5em 0;
+    font-weight: 100;
+}
+
+h3 {
+    font-family: $foundry_extra_bold;
+    text-transform: uppercase;
+    line-height: 1.4em;
+    font-size: 1.25em;
+    margin: 0 0 0.5em 0;
+    font-weight: 100;
+}
+
+h4 {
+    font-family: $foundry_condensed_bold;
+    text-transform: uppercase;
+    font-size: 1em;
+    margin: 0 0 0.5em 0;
+    font-weight: 100;
+}
+
+p {
+    font-family: $foundry_regular;
+    font-size: 0.9em;
+    line-height: 2.2em;
+    margin: 0 0 1em 0;
+}
+
+a {
+    font-family: $foundry_regular;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+li {
+    font-family: $foundry_regular;
+    font-size: inherit;
+    line-height: inherit;
+    list-style: initial;
+}
+
+@media screen and (min-width: 800px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+
+    h3 {
+        font-size: 2em;
+    }
+}
+
+
+/* General */
+
+* {outline: none;}
+hr {
+    border: 0;
+    height: 1px;
+    margin-top: 60px;
+    background: $foundry_red;
+}
+p:first-of-type {font-family: $foundry_bold;}
+p.cc_message {font-family: $foundry_regular !important;}
+p:last-of-type {margin-bottom: 0;}
+ul {list-style: none;}
+img {display: block;}
+.flexbox {display: flex;}
+.main-container {
+	max-width: 1075px;
+	margin: 0 auto;
+}
+.container {position: relative; width: 100%;}
+.hideme {opacity: 0;}
+.rule img {margin-bottom: 30px;}
+.centered {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    .rule img {margin-left: auto; margin-right: auto;}
+    p:first-of-type {font-family: $foundry_bold;}
+    a {color: $foundry_red;}
+}
+
+@media screen and (max-width: 1150px) {
+    .main-container {max-width: initial; width: 90%; margin: 0 5%;}
+}
+
+@media screen and (max-width: 800px) {
+    .centered {
+        width: 100%;
+        margin: 0 auto;
+        text-align: left;
+        .rule img {margin-left: 0;}
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .centered {width: 100%;}
+}
+
+/* Privacy */
+
+.privacy-policy {
+	h3 {
+		font-size: 1.5em;
+		margin-top: 35px;
+	}
+	
+	h4 {
+		font-size: 1.2em;
+		font-family: "Gotham Black",sans-serif,arial,sans-serif;
+		margin-top: 15px;
+	}
+	
+	p {
+		font-size: 0.9em;
+		line-height: 2.2em;
+		margin: 0 0 0.5em 0;
+	}
+	
+	li {
+		font-size: 0.9em;
+		line-height: 2.0em;
+		margin: 0 0 0.3em 0;
+		font-family: "Gotham Medium Book",sans-serif,arial,sans-serif;
+	}
+	
+	table {
+		width: 100% !important;
+		border: 1px solid #ddd;
+		margin: 20px 0 20px 0;
+		
+		thead {
+			background-color: #ebf4d9;
+		}
+		
+		td, th {
+			padding: 10px;
+			vertical-align: top;
+			font-size: 0.9em;
+			line-height: 1.7em;
+			font-family: "Gotham Medium Book",sans-serif,arial,sans-serif;
+			text-align: left;
+		}
+		
+		.table-striped tbody tr:nth-child(2n+1) td {
+		    background-color: #f9f9f9;
+		}
+	}
+}

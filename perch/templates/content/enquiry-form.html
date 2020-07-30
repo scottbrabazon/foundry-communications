@@ -1,0 +1,55 @@
+<!-- Enquiry Form -->
+
+<section id="enquiry-form" class="centered">
+	<perch:form action="#perch-reset" id="contact" method="post" app="perch_forms">
+        <h1>Make an enquiry</h1>
+		<div class="rule">
+			<img src="/img/rule.png" alt="Rule" />
+		</div>
+		<p>Send us a message. Fill in your details and we'll be in touch as soon as possible.</p>
+		<fieldset>
+			<div class="form-field">
+				<perch:input id="name" name="user_name" type="text" placeholder="Name*" required="true" label="Name" />
+			</div>
+			<div class="form-field">
+				<perch:input id="position" name="user_position" type="text" placeholder="Position" label="Position" />
+			</div>
+			<div class="form-field">
+				<perch:input id="company" name="user_company" type="text" placeholder="Company" label="Company" />
+			</div>
+			<div class="form-field">
+				<perch:input id="email" name="user_email" type="text" placeholder="Email address*" required="true" label="Email" />
+
+			</div>
+			<div class="form-field">
+				<perch:input id="telephone" name="user_telephone" type="text" placeholder="Telephone number" label="Telephone" />
+			</div>
+			<div class="form-field">
+				<perch:input id="message" name="user_message" type="text" placeholder="Message*" required="true" label="Message" />
+			</div>
+			<div class="data-protection">
+				<p>*Indicates required fields</p>
+			</div>
+			<div class="data-protection">
+				<p><perch:input id="fullfilment" name="user_optin" type="checkbox" label="Keep Data" required="true" value="Yes" />&nbsp;<span>Please confirm, by ticking the box, that you are happy for The Foundry to keep your personal details on our database in order to provide you with the information you have requested above.*</span></p>
+			</div>
+			<div class="data-protection">
+				<p><perch:input id="accept_privacy" name="accept_privacy" type="checkbox" label="Accept Privacy" required="true" value="Yes" />&nbsp;<span>I confirm by ticking this box that I have read and accepted the <a href="/privacy-policy/">privacy policy</a>.*</span></p>
+			</div>
+			<div class="data-protection">
+				<p><perch:input id="join_newsletter" name="join_newsletter" type="checkbox" label="Join Newsletter" value="Yes" />&nbsp;<span><strong>Want to join our eNewsletter?</strong> Please confirm, by ticking the box, that you are happy for The Foundry to keep your personal details on our database in order to send you relevant information about our services and latest news about The Foundry.</span></p>
+			</div>
+			<div class="data-protection">
+				<p>You are entitled to withdraw you consent at any time. If you wish to withdraw your consent, please contact us either by email: <a href="mailto:dataprotection@foundrycomms.co.uk">dataprotection@foundrycomms.co.uk</a> or write to us at our company address: The Foundry Communications, 3 Denmark Street, Altrincham, Cheshire, WA14 2SS.</p>
+			</div>
+			<div class="hvr-bounce-to-right button-next">
+				<perch:input type="submit" id="submit" value="Send" />
+			</div>
+		</fieldset>
+		<perch:success>
+		<perch:content id="thankyou" label="Success message" type="textarea" textile="true" editor="markitup" />
+		</perch:success>
+	</perch:form>
+</section>
+
+<!-- End Enquiry Form -->
