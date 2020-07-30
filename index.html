@@ -1,14 +1,3 @@
-<?php include('perch/runtime.php'); ?>
-
-<?php
-	// Defaults, which can be overridden
-	$domain = 'https://'.$_SERVER["HTTP_HOST"];
-	$url = $domain.$_SERVER["REQUEST_URI"];
-	
-	PerchSystem::set_var('domain',$domain);
-	PerchSystem::set_var('url',$url);
-?>
-
 <!DOCTYPE html>
 <!--[if IE 6]>
 <html class="ie ie6 nojs Corporate
